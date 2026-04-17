@@ -1,0 +1,43 @@
+.autors{
+    flex-direction: column;
+    padding-bottom: 98px;
+    padding-top: 120px;
+}
+.autors h1{
+    text-align: center;
+}
+.autors_item{
+    width: 300px;
+    height: 324px;
+    text-align: center;
+    
+   
+    
+}
+.autors_item h3{
+    margin-top: 20px;
+}
+.autors_list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+    justify-content: space-around;
+}
+.autors_photo{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.autors_social{
+    margin-top: 30px;
+    display: flex;
+    width: 112px;
+    justify-content: space-between;
+    margin-left: 90px;
+    
+}
+.autors_social img{
+    cursor: pointer;
+}

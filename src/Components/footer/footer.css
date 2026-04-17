@@ -1,0 +1,51 @@
+
+.footer_cont{
+    padding-top: 50px;
+    height: 100%;
+   
+    background-color: #232536;
+    padding-bottom: 100px;
+    
+}
+.flex{
+   flex-direction: column; 
+}
+.footer_all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.forms{
+    width: 1280px;
+    margin: 0 auto;
+    float: right;
+    height: 200px;
+   background-color: #2E3040;
+    padding-top: 80px;
+    position: relative;
+    
+    
+}
+.forms h2{
+    width: 562px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    
+}
+.forms input{
+    margin-left: 700px;
+    width: 315px;
+    height: 56px;
+    border: 1px solid #4C4C4C;
+    padding-left: 30px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1280px;
+    color:white
+}

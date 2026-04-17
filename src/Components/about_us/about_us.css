@@ -1,0 +1,54 @@
+.space{
+    justify-content: space-around;
+    padding-bottom: 100px;
+    position: relative;
+    padding-top: 115px;
+}
+.space::after{
+    content: '';
+    width: 282px;
+    height: 23px;
+    position: absolute;
+    background-color: #592EA9;
+    top:0;
+    right: 0;
+
+}
+.space::before{
+    content: '';
+    width: 840px;
+    height: 23px;
+    position: absolute;
+    background-color: #FFD050;
+    top:0;
+    right: 270;
+
+}
+.about_us{
+    width: 515px;
+    height: 308px;
+    
+}
+.our_mission{
+    width: 515px;
+    height: 250px;
+}
+.our_mission p{
+   color: #6D6E76; 
+}
+.space h1{
+    margin-bottom: 24px;
+}
+.space h2{
+    margin-bottom: 16px;
+}
+.about_us p{
+    margin-bottom: 16px;
+    color: #6D6E76;
+}
+.about_us a{
+    font-size: 18px;
+    line-height: 32px;
+    color: #592EA9;
+    font-weight: 600;
+}

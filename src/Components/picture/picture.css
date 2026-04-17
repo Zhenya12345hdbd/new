@@ -1,0 +1,26 @@
+.position{
+    position: relative;
+    
+}
+.position img{
+    width: 950px;
+    height: 705px;
+}
+.picture_text{
+    width: 720px;
+    height: 584px;
+    position: absolute;
+    padding: 80px;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+}
+.picture_text h3{
+    margin-bottom: 24px;
+}
+.picture_text h1{
+    margin-bottom: 12px;
+}
+.picture_text p{
+    margin-bottom: 32px;
+}

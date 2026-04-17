@@ -1,0 +1,6 @@
+export const about_us_right_data = [
+
+     'AOUR MISSION',
+    'Creating valuable content for creatives all around the world',
+     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+]

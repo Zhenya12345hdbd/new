@@ -1,0 +1,21 @@
+.featured_pos{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.featured_logo{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+
+}
+.featured_logo img{
+    height: 32px;
+    width: 100%;
+}
+.featured_text h4{
+    color:#6D6E76;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}

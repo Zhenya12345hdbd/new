@@ -1,0 +1,29 @@
+.padding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.first_blog_text{
+    width: 624px;
+    
+   
+}
+.first_blog_text h2{
+    margin-bottom: 15px;
+}
+.first_blog_text h1{
+    margin-bottom: 15px;
+}
+.first_blog_text p{
+
+color:#6D6e76;
+margin-bottom: 30px;
+    
+}
+
+.padding img{
+    width: 515px;
+    height: 360px;
+}

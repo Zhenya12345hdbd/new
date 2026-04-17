@@ -1,0 +1,16 @@
+.color{
+    color: white;
+    margin-top: 10px;
+}
+
+.menu a{
+margin-right: 30px;
+cursor: pointer;
+}
+.polog{
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.button_menu_color{
+    background-color: white;
+}

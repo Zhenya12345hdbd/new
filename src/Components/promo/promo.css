@@ -1,0 +1,55 @@
+
+.bg_image{
+position: relative;
+background: none;
+z-index: 1;
+  width: 1440px;
+    height: 720px;
+
+}
+.bg_image::before{
+    content: '';
+    background: url("/src/images/promo_fon.jpg");
+   background-size: 100%;
+    width: 1440px;
+    height: 720px;
+   background-position: center;
+    position: absolute;
+    height: 720px;
+    z-index: -2; 
+    transform: scaleX(-1);
+}
+.bg_image::after{
+    content: '';
+    
+   background: linear-gradient(to right top, black, gray);
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 1440px;
+    height: 720px;
+    opacity: 50%;
+    
+}
+.promo_text{
+    width: 800px;
+    height: 400px;
+    margin-top: 124px;
+}
+.white{
+    color: white;
+
+}
+.white span{
+    font-weight: 700;
+}
+.yellow{
+    color: yellow;
+}
+.bottom{
+    margin-bottom: 10px;
+}
+.bottom_50px{
+    margin-bottom: 50px;
+}

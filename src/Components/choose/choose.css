@@ -1,0 +1,44 @@
+.choose{
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.choose h1{
+    text-align: center;
+}
+.category{
+display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.category h3{
+    margin-top: 10px;
+}
+.category_item{
+    width: 300px;
+    height: 228px;
+    border: 1px solid #d8d8db;
+    padding: 32px;
+    cursor: pointer;
+}
+.category_item:hover{
+    background-color: #FFD050;
+    border: 1px solid #FFD050;
+
+}
+.category_item:hover  img{
+    
+    background-color: white;
+    border-radius: 9px;
+}
+
+.category_item p{
+    color: #6D6E76;
+    padding-top: 5px;
+}
+.category_item img {
+    width: 48px;
+    height: 48px;
+    
+}
