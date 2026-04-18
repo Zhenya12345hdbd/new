@@ -6,7 +6,7 @@ let count= 1
 
     let all_block = document.querySelector('.blog_slider')
     console.log(document.querySelector('.blog_slider').offsetWidth)
-    if (count < Math.round(Object.keys(blog_item_data).length/4)){
+    if (count < Math.ceil(Object.keys(blog_item_data).length/4)){
         count++
         document.querySelector('.blog_left').classList.remove('blog_active')
         

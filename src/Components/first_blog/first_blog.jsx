@@ -23,7 +23,7 @@ function First_blog () {
                 </h1>
                 <Promo_text3 style={myStyles} text={'James West'}/>
                 <p className='body_1'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                <Link to={'/item'} style={myStyles_text}><Button text={'Read More >'} /></Link>
+                <Link to={'/item/1'} style={myStyles_text}><Button text={'Read More >'} /></Link>
             </div>     
             <img src={first_blog} alt='' />
            

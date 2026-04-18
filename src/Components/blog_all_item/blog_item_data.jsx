@@ -21,6 +21,7 @@ export const blog_item_data = [
     id:1,
     category: 'Economy',
     autor: 'Floyd Miles',
+    type: '1',
      head: 'Step-by-step guide to choosing great font pairs 1',
      face: floid,
     title: 'Design tips for designers that cover everything you need',
@@ -30,6 +31,7 @@ export const blog_item_data = [
 },
 {
      id:2,
+type: '1',
     category: 'Tehnology',
     autor: 'Dianne Russell',
      head: 'Step-by-step guide to choosing great font pairs 2',
@@ -40,6 +42,7 @@ export const blog_item_data = [
 },
 {
     id:3,
+    type: '1',
     category: 'Startup',
     autor: 'Jenny Wilson',
      head: 'Step-by-step guide to choosing great font pairs 3',
@@ -104,5 +107,17 @@ export const blog_item_data = [
      text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
+{
+     id:9,
+    category: 'Startup',
+    autor: 'Jacob Jones',
+     head: 'Step-by-step guide to choosing great font pairs 9',
+     face: jacob,
+    title: 'Design tips for designers that cover everything you need',
+    photo: five,
+     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+
 
 ]

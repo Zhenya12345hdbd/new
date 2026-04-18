@@ -11,6 +11,7 @@ import { blog_item_data } from '../blog_all_item/blog_item_data';
 
 
 function Link_post (link) {
+    window.scrollTo(0, 0)
     const { id } = useParams();
 
     const user = blog_item_data.find(user => user.id === Number
