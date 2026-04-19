@@ -1,4 +1,4 @@
-
+import About_promo from "../Components/about_promo/about_promo";
 
 
 
@@ -6,7 +6,8 @@ function About() {
   return (
   <div>
     
-    <h1>about</h1>
+    <About_promo/>
+    
     
   </div>
    

@@ -20,6 +20,10 @@ function Read_next() {
         now2--
 
     }
+    if (now1 == now2){
+        now2++
+
+    }
     const apples = blog_item_data.filter(fruit => fruit.id === now);
     const apples1 = blog_item_data.filter(fruit1 => fruit1.id === now1);
     const apples2 = blog_item_data.filter(fruit2 => fruit2.id === now2);

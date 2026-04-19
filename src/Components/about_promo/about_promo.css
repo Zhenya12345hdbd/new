@@ -1,0 +1,83 @@
+.about{
+    position: relative;
+    padding-top: 300px;
+    
+}
+.about img{
+    width: 1280px;
+    height: 444px;
+    object-fit: cover;
+}
+
+.about_promo_text{
+    width: 1130px;
+    height: 356px;
+    display: flex;
+position: absolute;
+top: 30px;
+left: 109px;
+    justify-content: space-between;
+}
+
+.about_promo_text_left{
+    width: 624px;
+    height: 356px;
+    padding: 64px;
+    background-color: white;
+  
+}
+.about_promo_text_left h3{
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.about_promo_text_right{
+    width: 477px;
+    height: 112px;
+    margin-top: 100px;
+    color: #4C4C4C;
+
+}
+.about_promo_num{
+    display: flex;
+    flex-direction: row;
+    width: 630px;
+    height: 156px;
+position: absolute;
+background-color: #FFD050;
+gap: 65px;
+padding-bottom: 32px;
+padding-top: 32px;
+padding-left: 48px;
+padding-right: 48px;
+left: 109px;
+bottom: 15px;
+
+}
+.about_promo_num::before{
+    content: '';
+    width: 311px;
+    height: 23px;
+    background-color: #592EA9;
+    z-index: 1;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+
+}
+.about_promo_num::after{
+    content: '';
+    width: 550px;
+    height: 23px;
+    background-color: #FFD050;
+    position: absolute;
+      z-index: 1;
+      bottom: -15px;
+      left: 300px;
+    
+}
+
+.about_promo_num_item{
+    width: 142px;
+    height: 92px;
+}
