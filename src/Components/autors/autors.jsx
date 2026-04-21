@@ -8,20 +8,22 @@ import Autors_item from './autors_item/autors_item';
 
 let autors_mas
 
+let filters
 
 
 
 
 
-
-function Autors() {
+function Autors(aut) {
+   
+  
 
   return (
     <section>
         <container className="container autors">
             <Autors_big_text text={'List of Authors'} />
             <div className='autors_list'>
-            {autors_mas = autors_data.map(writers =>
+            {autors_mas = aut.filt.map(writers =>
                  <Autors_item 
                  name={writers.name}
                  photo={writers.photo}

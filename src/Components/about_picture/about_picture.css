@@ -1,0 +1,27 @@
+.picture{
+    flex-direction: row;
+    padding-top: 64px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;
+}
+.About_picture_text{
+    width: 519px;
+    height: 316px;
+}
+.About_picture_text h2{
+    margin-bottom: 12px;
+}
+.About_picture_text h3{
+    margin-bottom: 16px;
+}
+.About_picture_image{
+    width: 681px;
+    height: 480px;
+    text-align: right;
+    position: relative;
+}
+.About_picture_image img{
+    width: 624px;
+    height: 480px;
+}

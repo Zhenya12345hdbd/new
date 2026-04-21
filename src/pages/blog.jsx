@@ -4,6 +4,7 @@ import Choose from "../Components/choose/choose";
 import Join from "../Components/join/join";
 
 function Blog() {
+   window.scrollTo(0, 0)
   return (
   <div>
     <First_blog/>

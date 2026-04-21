@@ -8,9 +8,12 @@ import Autors from "../Components/autors/autors";
 import Featured from "../Components/featured/featured";
 import Sliders_block from "../Components/sliders_block/sliders_block";
 import Join from "../Components/join/join";
+import { autors_data } from "../Components/autors/autors_item/autors_data";
 
 
 function Main() {
+  const filters = autors_data.filter(number => number.id < 5)
+   window.scrollTo(0, 0)
   return (
   <div>
     
@@ -19,7 +22,10 @@ function Main() {
     <About_us/>
     <Choose/>
     <Picture/>
-    <Autors/>
+    <Autors
+    filt={filters}
+    
+    />
     <Featured/>
     <Sliders_block/>
     <Join />
