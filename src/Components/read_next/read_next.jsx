@@ -29,9 +29,7 @@ function Read_next() {
     const apples2 = blog_item_data.filter(fruit2 => fruit2.id === now2);
     const array3 = apples.concat(apples1);
     const array4 = array3.concat(apples2);
-    console.log(now);
-    console.log(now1);
-    console.log(now2);
+    
     
     const { id } = useParams();
     const user = blog_item_data.find(user => user.id === Number

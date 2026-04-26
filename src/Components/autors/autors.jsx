@@ -28,6 +28,7 @@ function Autors(aut) {
                  name={writers.name}
                  photo={writers.photo}
                  profession={writers.profession}
+                 path={writers.path}
 
              />
 

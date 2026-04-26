@@ -1,0 +1,43 @@
+.autors_person{
+    justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 120px;
+    gap: 32px;
+    position: relative;
+}
+.autors_person::after{
+    content: '';
+    width: 813px;
+    height: 24px;
+    background-color: #FFD050;
+    position: absolute;
+    bottom: 0;
+    left: 161px;
+
+}
+.autors_person::before{
+    content: '';
+    width: 272px;
+    height: 24px;
+    background-color: #592EA9;
+    position: absolute;
+    bottom: 0;
+    right: 110px;
+
+}
+.autors_person_text{
+    width: 669px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+
+}
+.autors_person_text p{
+    margin-top: 24px;
+    line-height: 28px;
+}
+.person{
+    width: 250px;
+    height: 295px;
+    object-fit: cover;
+}

@@ -8,7 +8,18 @@ import { click_right } from './blog_item_logik';
 let blog_num
 
 function Blog_all_item () {
+    const styles_item = {
+      background: 'white',
+      
+  };
+   const styles_item2 = {
+      width: '490px',
+    height: '318px',
+    objectFit: 'cover',
+      
+  };
     
+
   return (
     <section>
         <container className="container flex blog">
@@ -25,7 +36,9 @@ function Blog_all_item () {
                 category={numer.category}
                 tittle={numer.title}
                 text={numer.text}
-
+                style={styles_item}
+                style2={styles_item2}
+                
                 />
             ) }
          </div>

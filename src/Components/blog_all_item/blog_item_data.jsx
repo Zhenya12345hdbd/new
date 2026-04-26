@@ -26,19 +26,19 @@ export const blog_item_data = [
      face: floid,
     title: 'Design tips for designers that cover everything you need',
     photo: first,
-    text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    text: '1 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
 {
      id:2,
-type: '1',
-    category: 'Tehnology',
+
+    category: 'Technology',
     autor: 'Dianne Russell',
      head: 'Step-by-step guide to choosing great font pairs 2',
     title: 'Design tips for designers that cover everything you need',
     face: dianne,
     photo: second,
-     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+     text: '2 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
 },
 {
     id:3,
@@ -49,7 +49,7 @@ type: '1',
      face: jenny,
     title: 'Design tips for designers that cover everything you need',
     photo: third,
-     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+     text: '3 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
 {
@@ -60,7 +60,7 @@ type: '1',
      face : leslie ,
     title: 'Design tips for designers that cover everything you need',
     photo: four,
-     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+     text: '4 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
 {
@@ -71,29 +71,29 @@ type: '1',
      face: guy ,
     title: 'Design tips for designers that cover everything you need',
     photo: five,
-    text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    text: '5 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
 {
      id:6,
-    category: 'Tehnology',
+    category: 'Technology',
     autor: 'Eleanor Pena',
     head: 'Step-by-step guide to choosing great font pairs 6',
     face: eleanor ,
     title: 'Design tips for designers that cover everything you need',
     photo: five,
-     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+     text: '6 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
 {
      id:7,
-    category: 'Tehnology',
+    category: 'Technology',
     autor: 'Robert Fox',
      head: 'Step-by-step guide to choosing great font pairs 7',
      face : robert,
     title: 'Design tips for designers that cover everything you need',
     photo: five,
-     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+     text: '7 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
 {
@@ -104,7 +104,7 @@ type: '1',
      face: jacob,
     title: 'Design tips for designers that cover everything you need',
     photo: five,
-     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+     text: '8 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
 {
@@ -115,9 +115,102 @@ type: '1',
      face: jacob,
     title: 'Design tips for designers that cover everything you need',
     photo: five,
-     text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+     text: '9 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
     
 },
+{
+     id:10,
+    category: 'Busines',
+    autor: 'Leslie Alexander',
+     head: 'Step-by-step guide to choosing great font pairs 10',
+     face : leslie ,
+    title: 'Design tips for designers that cover everything you need',
+    photo: four,
+     text: '10 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+{
+    id:11,
+    category: 'Economy',
+    autor: 'Floyd Miles',
+    
+     head: 'Step-by-step guide to choosing great font pairs 11',
+     face: floid,
+    title: 'Design tips for designers that cover everything you need',
+    photo: first,
+    text: '11 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+{
+    id:12,
+    category: 'Economy',
+    autor: 'Floyd Miles',
+    
+     head: 'Step-by-step guide to choosing great font pairs 12',
+     face: floid,
+    title: 'Design tips for designers that cover everything you need',
+    photo: first,
+    text: '12 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+{
+    id:13,
+    category: 'Economy',
+    autor: 'Floyd Miles',
+    
+     head: 'Step-by-step guide to choosing great font pairs 13',
+     face: floid,
+    title: 'Design tips for designers that cover everything you need',
+    photo: first,
+    text: '13 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+{
+     id:14,
+    category: 'Busines',
+    autor: 'Leslie Alexander',
+     head: 'Step-by-step guide to choosing great font pairs 14',
+     face : leslie ,
+    title: 'Design tips for designers that cover everything you need',
+    photo: four,
+     text: '14 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+{
+     id:15,
+    category: 'Busines',
+    autor: 'Leslie Alexander',
+     head: 'Step-by-step guide to choosing great font pairs 15',
+     face : leslie ,
+    title: 'Design tips for designers that cover everything you need',
+    photo: four,
+     text: '15 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+{
+     id:16,
+    category: 'Technology',
+    autor: 'Robert Fox',
+     head: 'Step-by-step guide to choosing great font pairs 16',
+     face : robert,
+    title: 'Design tips for designers that cover everything you need',
+    photo: five,
+     text: '16 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+{
+     id:17,
+    category: 'Technology',
+    autor: 'Robert Fox',
+     head: 'Step-by-step guide to choosing great font pairs 17',
+     face : robert,
+    title: 'Design tips for designers that cover everything you need',
+    photo: five,
+     text: '17 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+    
+},
+
+
 
 
 ]

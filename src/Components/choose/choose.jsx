@@ -17,9 +17,11 @@ function Choose() {
                 <Autors_big_text text={'Choose A Catagory'} />
                 <div className='category'>
                     { block = category.map(blokus =>
+
                         <Categort_all icon={blokus.icon}
                                       name={blokus.category}
                                       profession={blokus.profession}
+                                      name={blokus.name}
                                     />
                     )}
                     

@@ -7,8 +7,8 @@ function Blog_item_slides (slides) {
     
     
   return (
-            <div className='blog_item' id={slides.id}>
-                <Link to={`/item/${slides.id}`} onClick={refs}><img src={slides.photo}  alt=''/></Link>
+            <div className='blog_item' style={slides.style} id={slides.id}>
+                <Link to={`/item/${slides.id}`} onClick={refs}><img src={slides.photo} style={slides.style2} alt=''/></Link>
                 <div className='blog_text'>
                     <h3 className='cup_1'>
                         {slides.category}

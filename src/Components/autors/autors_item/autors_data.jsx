@@ -11,8 +11,8 @@ import jacob from '../../../images/list_autors/jacob.png'
 export const autors_data = [
 {
     id: 1,
-        first:'first',
     name: 'Floyd Miles',
+    path: 'Floyd',
     profession: 'Content Writer @Company',
     photo: floid,
     
@@ -21,6 +21,7 @@ export const autors_data = [
     id: 2,
     first:'first',
     name: 'Dianne Russell',
+    path: 'Dianne_Russell',
     profession: 'Content Writer @Company',
      photo: dianne,
     
@@ -29,6 +30,7 @@ export const autors_data = [
     id: 3,
     first:'first',
     name: 'Jenny Wilson',
+    path: 'Jenny_Wilson',
     profession: 'Content Writer @Company',
     photo: jenny ,
     
@@ -37,6 +39,7 @@ export const autors_data = [
     id: 4,
     first:'first',
     name: 'Leslie Alexander',
+    path: 'Leslie_Alexander',
     profession: 'Content Writer @Company',
     photo: leslie ,
     
@@ -44,6 +47,7 @@ export const autors_data = [
 {
     id: 5,
     name: 'Guy Hawkins',
+    path: 'Guy_Hawkins',
     profession: 'Content Writer @Company',
     photo: guy ,
     
@@ -51,6 +55,7 @@ export const autors_data = [
 {
     id: 6,
     name: 'Eleanor Pena',
+    path: 'Eleanor_Pena',
     profession: 'Content Writer @Company',
     photo: eleanor ,
     
@@ -58,6 +63,7 @@ export const autors_data = [
 {
     id: 7,
     name: 'Robert Fox',
+    path: 'Robert_Fox',
     profession: 'Content Writer @Company',
     photo: robert ,
     
@@ -65,6 +71,7 @@ export const autors_data = [
 {
     id: 8,
     name: 'Jacob Jones',
+    path: 'Jacob_Jones',
     profession: 'Content Writer @Company',
     photo: jacob ,
     

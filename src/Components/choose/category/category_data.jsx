@@ -5,21 +5,26 @@ import icon3 from '../../../images/icon3.png'
 import icon4 from '../../../images/icon4.png'
 
 
+
 export const category = [{
     icon: icon1,
-  category: 'Business',
+    id: 1,
+  name: 'Busines',
   profession: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
 }, {
     icon: icon2,
-  category: 'Startup',
+    id: 2,
+  name: 'Startup',
   profession: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
 }, {
     icon: icon3,
-  category: 'Economy',
+    id: 3,
+  name: 'Economy',
   profession: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
 }, {
     icon: icon4,
-  category: 'Technology',
+    id: 4,
+  name: 'Technology',
   profession: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',  
 }, 
 ];

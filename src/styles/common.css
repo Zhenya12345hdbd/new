@@ -110,10 +110,23 @@ footer{
  button:hover{ 
     background-color: #EDC14A;
  }
+ .active div{
+
+     background-color: #FFD050;
+    
+ }
+ .active img{
+    
+    background-color: white;
+    border-radius: 9px;
+}
 
  .purple{
     color: #592EA9;
  }
  .gray{
     color: #6D6E76;
+ }
+ .black{
+    color:#232536;
  }

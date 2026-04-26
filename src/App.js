@@ -5,7 +5,11 @@ import Main from "./pages/main";
 import About from "./pages/about";
 import Blog from "./pages/blog";
 import Item from "./pages/blog_post";
-import { blog_item_data } from "./Components/blog_all_item/blog_item_data";
+
+import Category from "./pages/category";
+import Autors from "./pages/autors";
+
+
 
 function App() {
   return (
@@ -15,22 +19,14 @@ function App() {
           <Route  path="/" element={<Main />}/>
           <Route  path="/blog" element={<Blog />}/>
 
-          <Route path="/item/:id" element={<Item
-          
-          
-          />}>
+          <Route path="/item/:id" element={<Item/>}>
             
-
           </Route>
-                        
-              
-          
-          
           <Route path="/about" element={<About />}/>
-           
-                
-            
+          <Route path="/autors/:path" element={<Autors />}/>
+          <Route path="/:name" element={<Category />}/>
           
+
         </Routes>
 
     <Footer/>

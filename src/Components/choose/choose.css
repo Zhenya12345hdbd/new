@@ -27,7 +27,7 @@ display: flex;
     border: 1px solid #FFD050;
 
 }
-.category_item:hover  img{
+.category_item:hover img{
     
     background-color: white;
     border-radius: 9px;
