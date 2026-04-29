@@ -17,7 +17,7 @@ function Footer() {
   return (
     <header>
         <container className="container background_black polog">
-            <Logo firm={'Finsweet'}/>
+           <Link to={'/'}><Logo firm={'Finsweet'}/></Link> 
              <Menu  menu={listmenu = menu.map(person => 
                         <Link to={person.path} className='body_1 color'>{person.item}</Link>)} />
             

@@ -3,10 +3,10 @@ import Logo from '../header/logo/logo'
 import { menu_footer } from './menu_footer/menu_footer_list';
 import Menu_footer from './menu_footer/menu_footer';
 import Button from '../header/button/button';
-import instagram from '../../images/instagram.png'
-import linked from '../../images/linked.png'
-import twitter from '../../images/twitter.png'
-import facebook from '../../images/Facebook.png'
+import instagram from '../../images/instagram_gray.png'
+import linked from '../../images/linked_gray.png'
+import twitter from '../../images/twitter_gray.png'
+import facebook from '../../images/facebook_gray.png'
 import { Link } from 'react-router';
 
 
@@ -17,7 +17,7 @@ function Footer() {
     <footer className='footer_cont'>
         <container className="container flex">
             <div className='footer_all'>
-                <Logo firm={'Finsweet'}/>
+               <Link to={'/'}><Logo firm={'Finsweet'}/></Link> 
              <Menu_footer  menu={listmenu = menu_footer.map(person => 
                         <Link to={person.path}className='body_1 color'>{person.item}</Link>)} />
             </div>
